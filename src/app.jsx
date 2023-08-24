@@ -4,20 +4,15 @@ import ItemListContainer from './components/ItemListContainer'
 
 export function App() {
 
-   //JS
+   const texto = "Próximamente Nuevos Estrenos";
 
-  return (
-   //HTML con algunos cambios (ej. class => className
-                             //(todas las tags deben tener su etiqueta de cierre))
-                             //(los nombre de los eventos van escritos en camelCase)
-   // {JS}
+   return (
 
-     <div>   
-
+     <div>    
         <NavBar/>
-        <ItemListContainer greeting= {"Proximamente nuevos Estrenos"}/>
+        <ItemListContainer greeting= {texto}/>
      </div>
-  )
+   )
 }
 
-export default App
+export default App;
